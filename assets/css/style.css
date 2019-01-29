@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+/* ==========================================================================
+   1. CSS Reset Code
+   ========================================================================== */
+
+/* 1.1. Eric Meyers Reset
+   http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+   ========================================================================== */
+   html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+   blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
+   ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+   dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+   tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
+   figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+   time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+   }
+
+   /* HTML5 display-role reset for older browsers */
+   article, aside, details, figcaption, figure,
+   footer, header, hgroup, menu, nav, section {
+    display: block;
+   }
+
+   /* Force scrollbar */
+   html { overflow-y: scroll; }
+
+   /* Align radios and text inputs with their label */
+
+   input[type='radio'] { vertical-align: text-bottom; }
+
+   /* Hand cursor on clickable input elements */
+   label,
+   input[type='button'],
+   input[type='submit'],
+   button {
+    cursor: pointer;
+   }
+
+   strong {
+    font-weight: bold;
+    font-family: inherit;
+    font-size: inherit;
+   }
+
+   em { font-style: italic; }
+
+   img {
+    border: 0;
+    vertical-align: middle;
+   }
+
+   sub,
+   sup {
+    vertical-align: baseline;
+    position: relative;
+    font-size: 55%;
+    line-height: 0;
+   }
+
+   sup { top: -.7em; }
+
+   sub { bottom: -.25em; }
+
+/* 1.2. Clear Fix
+========================================================================== */
+
+.cf:before,
+.cf:after {
+  display: table;
+  content: " ";
+}
+
+.cf:after { clear: both; }
+
+.cf { *zoom: 1; }
+
+/* COMMON STYLING */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container { width: 100%; }
+
+.wrapper {
+  width: 81.19%;
+  margin: 0 auto;
+  max-width: 1500px;
+}
+
+.fas { padding-right: 5px; }
+body { font-family: Arial; }
+ul li { list-style: none; }
+img { width: 100%; }
+.uppercase { text-transform: uppercase; }
+.first-letter:first-letter { text-transform: capitalize; }
+.block { display: block; }
+.centre { text-align: center; }
+.capitalize { text-transform: capitalize; }
+
+.transition {
+  -webkit-transition: all .8s ease-in-out;
+  -moz-transition: all .8s ease-in-out;
+  -ms-transition: all .8s ease-in-out;
+  -o-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  outline: none;
+}
+
+/* chess sectin styling goes here */
+body {
+  background-color: #eaf2ef;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.chess {
+  padding: 40px 0;
+  text-align: center;
+}
+
+table {
+  margin: 10px auto 0;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+button {
+  margin: 20px;
+  padding: 5px 10px;
+  background-color:
+}
